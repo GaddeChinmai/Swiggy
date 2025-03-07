@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Inspired Header</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="offers.css">
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="help.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Left Side: Logo & Dropdown -->
+        <div class="logo-dropdown">
+            <img src="Swiggy image.png" alt="Swiggy Logo" class="logo">
+        
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-bars"></i> Menu</button>
+                <div class="dropdown-content">
+                    <a href="#"><i class="fas fa-utensils"></i> Restaurants</a>
+                    <a href="#"><i class="fas fa-shopping-basket"></i> Grocery</a>
+                    <a href="#"><i class="fas fa-store"></i> Instamart</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Side: Navigation Menu -->
+        <nav class="nav-menu">
+            <a href="offers.html" class="nav-link"><i class="fas fa-tags"></i> Offers</a>
+            <a href="help.html" class="nav-link"><i class="fas fa-question-circle"></i> Help</a>
+            <a href="signin.html" class="nav-link"><i class="fas fa-user"></i> Sign In</a>
+            <a href="cart.html" class="nav-link cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+            <input type="text" placeholder="Search" class="search-box">
+        </nav>
+    </header>
+    <!-- Cart Section -->
+    <div class="cart-container">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="Pizza.jpg" alt="Pizza" class="cart-img">
+                <div class="cart-details">
+                    <h3>Pizza</h3>
+                    <p>$15.99</p>
+                    <input type="number" value="1" min="1" class="cart-quantity">
+                </div>
+                <button class="remove-item">Remove</button>
+            </div>
+            <div class="cart-item">
+                <img src="Biryani.jpg" alt="Biryani" class="cart-img">
+                <div class="cart-details">
+                    <h3>Burger</h3>
+                    <p>$10.99</p>
+                    <input type="number" value="1" min="1" class="cart-quantity">
+                </div>
+                <button class="remove-item">Remove</button>
+            </div>
+        </div>
+        <div class="cart-total">
+            <h3>Total: <span>$21.98</span></h3>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+    
+            <!-- About Us Section -->
+            <div class="footer-column">
+                <h4>About Us</h4>
+                <p>Swiggy is India's leading online food delivery service, bringing your favorite meals right to your doorstep.</p>
+            </div>
+    
+            <!-- Quick Links Section -->
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <a href="offers.html">Offers</a>
+                <a href="help.html">Help</a>
+               
+                <a href="sigin.html">Sign In</a>
+                <a href="cart.html">cart</a>
+            </div>
+    
+            <!-- Contact Section -->
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p> Email: gaddechinmai@gmail.com</p>
+                <p> Phone: +91 8919011308</p>
+            </div>
+    
+        </div>
+    
+        <!-- Copyright Info -->
+        <p>&copy; 2025 Swiggy Limited. All rights reserved. | Designed by Chinmai</p>
+    </div>
+    
+</body>
+</html>
